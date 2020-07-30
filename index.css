@@ -136,10 +136,22 @@ img{
   height: 60%;
 }
 
+img:hover{
+  transform: scale(1.5,1.5);
+  transition-duration: 0.5s;
+}
+
 video{
   width: 100%;
   height: 60%;
 }
+
+video:hover{
+  transform: scale(1.5,1.5);
+  transition-duration: 0.5s;
+}
+
+
 
 p{
   margin: 10px;
